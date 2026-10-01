@@ -31,11 +31,11 @@ Every project is offline-first (Room as the single source of truth, mock Retrofi
 covered by unit tests and Robolectric screenshot tests, and built on CI with GitHub Actions.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iEswar23/Forkly/main/docs/screenshots/01_home.png" width="180" alt="Forkly">
-  <img src="https://raw.githubusercontent.com/iEswar23/BuddyUp/main/docs/screenshots/02_discover.png" width="180" alt="BuddyUp">
-  <img src="https://raw.githubusercontent.com/iEswar23/Vibely/main/docs/screenshots/01_home_feed.png" width="180" alt="Vibely">
-  <img src="https://raw.githubusercontent.com/iEswar23/GreenBasket/main/docs/screenshots/01_home.png" width="180" alt="GreenBasket">
-  <img src="https://raw.githubusercontent.com/iEswar23/StrikeZoneCricket/main/docs/screenshots/04_game_six.png" width="180" alt="StrikeZone Cricket">
+  <img src="https://raw.githubusercontent.com/iEswar23/Forkly/main/docs/screenshots/01_home.png" width="152" alt="Forkly">
+  <img src="https://raw.githubusercontent.com/iEswar23/BuddyUp/main/docs/screenshots/02_discover.png" width="152" alt="BuddyUp">
+  <img src="https://raw.githubusercontent.com/iEswar23/Vibely/main/docs/screenshots/01_home_feed.png" width="152" alt="Vibely">
+  <img src="https://raw.githubusercontent.com/iEswar23/GreenBasket/main/docs/screenshots/01_home.png" width="152" alt="GreenBasket">
+  <img src="https://raw.githubusercontent.com/iEswar23/StrikeZoneCricket/main/docs/screenshots/04_game_six.png" width="152" alt="StrikeZone Cricket">
 </p>
 
 ## 🧰 Tech stack
