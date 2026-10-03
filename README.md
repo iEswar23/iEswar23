@@ -21,21 +21,24 @@ wallet and payment journeys used by millions of people every day.
 
 | App | What it shows | Stack |
 |---|---|---|
-| [**BuddyUp**](https://github.com/iEswar23/BuddyUp) | Friend-finder: swipe cards, compatibility scoring, requests, chat, meetups | Kotlin · Compose · Hilt · Room · DataStore |
-| [**Forkly**](https://github.com/iEswar23/Forkly) | Food delivery: menus, customisation, coupon/GST pricing engine, live order tracking | Kotlin · Compose · Hilt · Room · Retrofit |
-| [**GreenBasket**](https://github.com/iEswar23/GreenBasket) | Grocery quick-commerce: catalog, search, cart with delivery slots, orders | Kotlin · XML Views · Navigation · ViewBinding |
-| [**Vibely**](https://github.com/iEswar23/Vibely) | Social feed: Paging 3 + RemoteMediator, stories, likes/comments, follows | Kotlin · Compose · Paging 3 · WorkManager |
-| [**StrikeZone Cricket**](https://github.com/iEswar23/StrikeZoneCricket) | Arcade cricket game: custom Canvas game loop, shot engine, stats | Java · XML Views · LiveData · Hilt · Room |
+| [**BuddyUp**](https://github.com/iEswar23/BuddyUp) | Friend-finder: swipe cards, compatibility scoring, chat with icebreakers, meetups, block & report | Kotlin · Compose · Hilt · Room · DataStore |
+| [**Forkly**](https://github.com/iEswar23/Forkly) | Food delivery: menus, coupon/GST pricing engine, live order tracking, split the bill, scheduled delivery | Kotlin · Compose · Hilt · Room · Retrofit |
+| [**GreenBasket**](https://github.com/iEswar23/GreenBasket) | Grocery quick-commerce: catalog, search, delivery slots, orders, Buy again & one-tap reorder | Kotlin · XML Views · Navigation · ViewBinding |
+| [**Vibely**](https://github.com/iEswar23/Vibely) | Social feed: Paging 3 + RemoteMediator, stories, likes/comments, polls with optimistic voting | Kotlin · Compose · Paging 3 · WorkManager |
+| [**StrikeZone Cricket**](https://github.com/iEswar23/StrikeZoneCricket) | Arcade cricket game: custom Canvas game loop, shot engine, stats, 12 achievements | Java · XML Views · LiveData · Hilt · Room |
+| [**Sports Schedule**](https://github.com/iEswar23/SportsSchedule) | NFL team schedule from a live JSON feed: season stats, filters, next-game countdown | Kotlin · Compose · Koin · Retrofit |
 
-Every project is offline-first (Room as the single source of truth, mock Retrofit backend),
-covered by unit tests and Robolectric screenshot tests, and built on CI with GitHub Actions.
+Every project is covered by unit tests and Robolectric + Roborazzi screenshot tests, builds on CI
+with GitHub Actions, and has a downloadable APK under Releases. The first five are offline-first
+(Room as the single source of truth, mock Retrofit backend); Sports Schedule reads a live JSON feed.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iEswar23/Forkly/main/docs/screenshots/01_home.png" width="152" alt="Forkly">
-  <img src="https://raw.githubusercontent.com/iEswar23/BuddyUp/main/docs/screenshots/02_discover.png" width="152" alt="BuddyUp">
-  <img src="https://raw.githubusercontent.com/iEswar23/Vibely/main/docs/screenshots/01_home_feed.png" width="152" alt="Vibely">
-  <img src="https://raw.githubusercontent.com/iEswar23/GreenBasket/main/docs/screenshots/01_home.png" width="152" alt="GreenBasket">
-  <img src="https://raw.githubusercontent.com/iEswar23/StrikeZoneCricket/main/docs/screenshots/04_game_six.png" width="152" alt="StrikeZone Cricket">
+  <img src="https://raw.githubusercontent.com/iEswar23/Forkly/main/docs/screenshots/01_home.png" width="128" alt="Forkly">
+  <img src="https://raw.githubusercontent.com/iEswar23/BuddyUp/main/docs/screenshots/02_discover.png" width="128" alt="BuddyUp">
+  <img src="https://raw.githubusercontent.com/iEswar23/Vibely/main/docs/screenshots/01_home_feed.png" width="128" alt="Vibely">
+  <img src="https://raw.githubusercontent.com/iEswar23/GreenBasket/main/docs/screenshots/01_home.png" width="128" alt="GreenBasket">
+  <img src="https://raw.githubusercontent.com/iEswar23/StrikeZoneCricket/main/docs/screenshots/04_game_six.png" width="128" alt="StrikeZone Cricket">
+  <img src="https://raw.githubusercontent.com/iEswar23/SportsSchedule/main/docs/screenshots/01_schedule.png" width="128" alt="Sports Schedule">
 </p>
 
 ## 🧰 Tech stack
